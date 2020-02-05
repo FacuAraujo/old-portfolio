@@ -228,12 +228,9 @@ img {
   position: relative;
 }
 
-.projects .info *:not(:last-child) {
-  margin-bottom: .5em;
-}
-
 .projects .info h2 {
   font-size: 1.2em;
+  margin-bottom: .5em;
 }
 
 .projects .info .github-repo {
