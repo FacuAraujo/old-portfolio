@@ -20,14 +20,14 @@ function typing() {
     } else if(i<text.length){
         textDOM.innerHTML += text.charAt(i);        
         i++;
-        setTimeout(typing,300);
+        setTimeout(typing,200);
         
         m = 0;
 
     } else if(m<text2.length){
         textDOM.innerHTML += text2.charAt(m);        
         m++;                
-        setTimeout(typing,300);        
+        setTimeout(typing,200);        
     } 
 }
 
